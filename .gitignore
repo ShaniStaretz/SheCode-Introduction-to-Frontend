@@ -1,0 +1,6 @@
+# Ignore any folder named "scripts" (top-level or nested)
+scripts/
+
+# Ignore common OS/editor files
+*.DS_Store
+.vscode/
