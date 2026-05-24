@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- Main subject: 01 -->
+
+  <title>Value Example</title>
+  <link rel="stylesheet" href="11-07.css" />
+</head>
+
+<body>
+  <h1>Registration Form</h1>
+  <p>Fill your details:</p>
+  <label for="name-input">Your Name:</label>
+  <input type="text" id="name-input" value="" placeholder="write your full name" />
+  <br />
+  <label for="age-input">Your age:</label>
+  <input type="number" id="age-input" value="" min="30" />
+  <br />
+  <label for="color-input">Your favorite color:</label>
+  <select id="color-input">
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+  </select>
+  <br />
+  <label for="date-input">Your Birthday:</label>
+  <input type="date" id="date-input" value="" />
+  <p>Recieve updates vai:</p>
+  <input type="radio" id="emailInput" name="updates-method" />
+  <label for="emailInput">Email</label>
+  <input type="radio" id="sms-input" name="updates-method" />
+  <label for="sms-input">SMS messages</label>
+  <br />
+  <input type="checkbox" id="remember-input" />
+  <label for="remember-input">Remember account on this computer</label>
+  <br />
+  <button id="blue-button" onclick="onBlueButtonClick()" value="Clicked!">
+    print simple message
+  </button>
+  <button id="yellow-button" onclick="onClickYelloButton()">
+    get color value
+  </button>
+
+  <button id="red-button" onclick="onClickRedButton()">
+    get hello user name
+  </button>
+
+  <button id="green-button" onclick="onClickGreenButton()">
+    get sms method selected
+  </button>
+  <script src="11-07.js"></script>
+</body>
+
+</html>

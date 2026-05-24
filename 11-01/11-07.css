@@ -1,4 +1,8 @@
 /* 12.01.css */
+* {
+  margin: 10px 2px;
+}
+
 /**
  * Blue Button Styles
  * 
@@ -15,15 +19,14 @@
   background-color: yellow;
 }
 
-.yellow-text {
-  background-color: yellow;
-}
-
-.yellow-text {
-  background-color: blue;
-}
-
 button {
   margin: 20px;
   padding: 20px;
+}
+
+#red-button {
+  background-color: red;
+}
+#green-button {
+  background-color: green;
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Event Listeners</title>
+  <link rel="stylesheet" href="11-05.css">
+</head>
+
+<body>
+  <h1>Welcome to your ice-cream shop!</h1>
+  <label for="scoop-count">How many scoops?</label>
+  <select id="scoop-count">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select>
+  <p>Choose flavors:</p>
+  <input type="checkbox" name="flavors" id="chocolate" value="chocolate">
+  <label for="chocolate">Chocolate</label>
+  <input type="checkbox" name="flavors" id="vanilla" value="vanilla">
+  <label for="vanilla">Vanilla</label>
+  <input type="checkbox" name="flavors" id="strawberry" value="strawberry">
+  <label for="strawberry">Strawberry</label>
+  <input type="checkbox" name="flavors" id="mint" value="mint">
+  <label for="mint">Mint</label>
+  <input type="checkbox" name="flavors" id="caramel" value="caramel">
+  <label for="caramel">Caramel</label>
+  <br />
+  <button id="order-button" onclick="onOrderButtonClick()">
+    order
+  </button>
+  <script src="11-05.js"></script>
+</body>
+
+</html>
