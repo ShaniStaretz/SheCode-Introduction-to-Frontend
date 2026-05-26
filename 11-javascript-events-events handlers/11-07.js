@@ -12,7 +12,7 @@ function onClickYelloButton() {
 }
 
 function onClickRedButton() {
-  alert("hello " + document.getElementById("name-input").value + "!!!!");
+  alert("hello " + document.getElementById("name-input").value + " " + "!!!!");
 }
 
 function onClickGreenButton() {
@@ -20,3 +20,6 @@ function onClickGreenButton() {
     "do sms-method is selected:" + document.getElementById("sms-input").checked,
   );
 }
+
+
+
