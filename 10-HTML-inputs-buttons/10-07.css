@@ -1,0 +1,7 @@
+ label {
+   font-weight: 400;
+ }
+
+ input[type="checkbox"]:checked+span {
+   font-weight: 700;
+ }
