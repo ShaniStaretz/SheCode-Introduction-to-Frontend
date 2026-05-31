@@ -10,12 +10,7 @@
 
 #header-row {
     background-color: #ffffff;
-}
-
-#header-row .cell {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    border-top: solid #ce4444 3px;
 }
 
 .row {
@@ -32,15 +27,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* border: solid #ce4444 3px; */
 }
 
-.row:first-child .cell {
-    border-top: solid #ce4444 3px;
-}
-
-.cell:first-child {
+.leftBoder {
     border-left: solid #ce4444 3px;
-}
+}   
 
 img {
     width: 60px;
