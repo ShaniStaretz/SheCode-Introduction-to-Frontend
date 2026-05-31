@@ -1,6 +1,6 @@
 function onMultiTwoClick() {
   let doubleNumberElement = document.getElementById("doubleNumber");
-  let doubleNumberValue = doubleNumberElement.value;
+  let doubleNumberValue = doubleNumberElement.value; //string= text
   let resultMulti = Number(doubleNumberValue) * 2;
   alert("the result is:" + resultMulti);
 }
@@ -30,14 +30,14 @@ function onSubmitClick() {
   let num3 = Number(document.getElementById("sum-number3").value);
 
   let resultSum = num1 + num2 + num3;
-  alert(
-    "Good Job" +
-      firstName +
-      " " +
-      lastName +
-      " , the result of multi number by two is " +
-      resultMulti +
-      ", the result of sum three numbers is: " +
-      resultSum,
-  );
+  let fullMessage =
+    "Good Job " +
+    firstName +
+    " " +
+    lastName +
+    " , the result of multi number by two is " +
+    resultMulti +
+    " , the result of sum three numbers is: " +
+    resultSum;
+  alert(fullMessage);
 }
