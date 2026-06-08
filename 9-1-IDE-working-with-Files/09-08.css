@@ -1,0 +1,39 @@
+/* Container for the chat app styling */
+#chat-container {
+  background-color: #ece5dd;
+  margin: 0 auto;
+  width: 33%;
+  height: 390px;
+  border-top: black 1px solid;
+  border-left: black 1px solid;
+  border-right: grey 5px solid;
+  border-bottom: grey 5px solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Title text is centered and colored */
+#title {
+  color: #075e54;
+  text-align: center;
+}
+
+.message {
+  border: 1px solid #075e54;
+  padding: 20px;
+  margin-top: 30px;
+  width: 220px;
+}
+
+.my-messages {
+  background-color: #dcf8c6;
+  margin-right: 0;
+  margin-left: auto;
+  border-radius: 10px 10px 0px 10px;
+}
+
+/* Message bubble colors distinguish sender and receiver */
+.you-messages {
+  border-radius: 10px 10px 10px 0px;
+  background-color: white;
+}
