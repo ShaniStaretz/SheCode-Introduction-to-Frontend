@@ -54,7 +54,7 @@ li {
 }
 
 #more {
-  
+
   font-weight: 900;
 }
 
@@ -62,11 +62,28 @@ li {
   font-style: italic;
 }
 
-#love{
+#love {
   color: red;
   letter-spacing: 3px;
 }
 
-#rewarding{
+#rewarding {
   word-spacing: 5px;
+}
+
+#dashed {
+  text-decoration: underline overline dashed purple;
+}
+
+#across{
+  text-decoration: line-through green double 4px
+}
+
+#solid{
+  text-decoration: overline solid orangered;
+}
+
+#dotted{
+  text-decoration: dotted underline line-through ;
+  text-decoration-thickness: 5px;
 }
