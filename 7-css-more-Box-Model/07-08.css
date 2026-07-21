@@ -21,12 +21,13 @@
   padding: 20px;
   margin-top: 30px;
   width: 220px;
+  border-radius: 10px;
 }
 .my-messages {
   background-color: #dcf8c6;
   margin-right: 0;
   margin-left: auto;
-  border-radius: 10px 10px 0px 10px;
+  border-bottom-right-radius: 0px;
 }
 
 .you-messages {
