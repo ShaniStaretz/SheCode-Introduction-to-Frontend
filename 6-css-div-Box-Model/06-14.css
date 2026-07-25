@@ -1,0 +1,33 @@
+.todo-container {
+  height: 300px;
+  width: 200px;
+  background-color: #fcf4bd;
+  padding: 15px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 5px solid grey;
+  border-bottom: 5px solid grey;
+  border-radius: 10px;
+}
+
+#title {
+  color: #743ae0;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.todo {
+  width: 150px;
+  background-color: gainsboro;
+  margin: 10px;
+  border: 1px dashed blue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.todo-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
