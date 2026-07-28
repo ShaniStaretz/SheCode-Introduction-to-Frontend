@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Main subject: 01 -->
+
+    <title>Value Example</title>
+    <link rel="stylesheet" href="10-extra-09.css" />
+</head>
+
+<body>
+    <h1>Welcome to Our Ice Cream Shop</h1>
+    <h3>Online Ice Cream Order</h3>
+    <form>
+        <p>Please fill in your order details:</p>
+        <label for="scoops-input">how many scoops:</label>
+        <select id="scoops-input" name="scoops-input">
+            <option value="1">1 scoop</option>
+            <option value="2">2 scoops</option>
+            <option value="3">3 scoops</option>
+        </select>
+        <br />
+
+        <p>Choose your ice cream flavors:</p>
+        <input type="checkbox" id="vanilla" name="flavors" />
+        <label for="vanilla">Vanilla</label><br />
+        <input type="checkbox" id="chocolate" name="flavors" />
+        <label for="chocolate">Chocolate</label><br />
+        <input type="checkbox" id="strawberry" name="flavors" />
+        <label for="strawberry">Strawberry</label><br />
+        <input type="checkbox" id="mint" name="flavors" />
+        <label for="mint">Mint</label><br />
+        <input type="checkbox" id="cookies-and-cream" name="flavors" />
+        <label for="cookies-and-cream">Cookies and Cream</label>
+        <br />
+        <label for="special-requests">Special Requests:</label><br />
+        <textarea id="special-requests" name="special-requests" rows="4" cols="30"></textarea>
+        <br />
+        <br />
+       
+        <p>Wrap as a gift:</p>
+        <input type="checkbox" id="gift-yes" name="gift-wrap" />
+        <label for="gift-yes">Yes</label>
+        <input type="checkbox" id="gift-no" name="gift-wrap" />
+        <label for="gift-no">No</label>
+        <br />
+        <br />
+        <p>Shipping Address:</p>
+        <!-- Example: placeholder shows the expected format and pattern checks for street, city -->
+        <input type="text" id="address-input" name="address" placeholder="123 Main St, City" />
+        <br />
+        <label for="shipping-time">Shipping Time:</label>
+        <input type="time" id="shipping-time" name="shipping-time" />
+        <br />
+        <label for="card-number">Credit Card Number for Payments:</label>
+        <!-- Example: inputmode="numeric" helps mobile keyboards, maxlength="16" limits the length, pattern="[0-9]{16}" expects 16 digits only-->
+        <input type="text" id="card-number" name="card-number" inputmode="numeric" pattern="[0-9]{16}" maxlength="16"
+            placeholder="1234 5678 9012 3456" />
+        <br />
+
+
+        <input type="submit" id="blue-button" value="Order!" />
+    </form>
+</body>
+
+</html>

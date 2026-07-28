@@ -8,7 +8,7 @@
  }
 
  /* other way to do it:
- input[type="radio"]:checked + .remember-option {
+ input[type="checkbox"]:checked + .remember-option {
    font-weight: 700;
  }   */
 
