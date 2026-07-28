@@ -2,6 +2,14 @@
    font-weight: 400;
  }
 
- input[type="checkbox"]:checked+span {
+ input[name="remember"]:checked+label {
    font-weight: 700;
+ }
+
+ #name-label:hover {
+  color: purple;
+ }
+
+ #age-input:focus {
+  background-color: yellow;
  }
