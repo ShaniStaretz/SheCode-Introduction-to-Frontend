@@ -44,14 +44,15 @@
         <br />
         <p>Shipping Address:</p>
         <!-- Example: placeholder shows the expected format and pattern checks for street, city -->
-        <input type="text" id="address-input" name="address" placeholder="123 Main St, City" />
+        <input type="text" id="address-input" name="address" placeholder="123 Main St, City" required />
         <br />
         <label for="shipping-time">Shipping Time:</label>
-        <input type="time" id="shipping-time" name="shipping-time" />
+        <input type="time" id="shipping-time" name="shipping-time" required />
         <br />
         <label for="card-number">Credit Card Number for Payments:</label>
         <!-- Example: inputmode="numeric" helps mobile keyboards, maxlength="16" limits the length, pattern="[0-9]{16}" expects 16 digits only-->
-        <input type="text" id="card-number" name="card-number" inputmode="numeric" pattern="[0-9]{16}" maxlength="16" placeholder="1234 5678 9012 3456" />
+        <input required type="text" id="card-number" name="card-number" inputmode="numeric" pattern="[0-9]{16}"
+            maxlength="16" placeholder="1234 5678 9012 3456" />
         <br />
 
         <input type="submit" id="blue-button" value="Order!" />
