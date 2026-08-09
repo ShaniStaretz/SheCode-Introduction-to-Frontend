@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Test 3</title>
+    <link rel="stylesheet" href="test3.css" />
+</head>
+
+<body>
+    <h1>The Matrix </h1>
+    <div class="container">
+        <img src="https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg"
+            alt="matrix image" />
+        <p class="description">
+            A movie about a programmer who discovers the truth about his reality.
+        </p>
+        <ul>
+            <li>Director: The Wachowskis</li>
+            <li>Release Year: 1999</li>
+            <li>Genre: Science Fiction, Action</li>
+        </ul>
+        <div class="container-section">
+
+            <div id="left-section">
+
+                <ul class="actors">
+                    <li class="actor">
+                        <a href="https://www.imdb.com/name/nm0000206/?ref_=tt_cst_i_1" target="_blank">
+                            <img
+                                src="https://m.media-amazon.com/images/M/MV5BNDEzOTdhNDUtY2EyMy00YTNmLWE5MjItZmRjMmQzYTRlMGRkXkEyXkFqcGc@._V1_FMjpg_UY2700_.jpg" />
+                        </a>
+                        <span> Keanu Reeves</span>
+                    </li>
+                    <li class="actor">
+                        <a href="https://www.imdb.com/name/nm0000401/?ref_=tt_cst_i_2" target="_blank">
+                            <img
+                                src="https://m.media-amazon.com/images/M/MV5BMTc0NjczNDc1MV5BMl5BanBnXkFtZTYwMDU0Mjg1._V1_FMjpg_UX267_.jpg">
+                             </a>
+                        <span> Laurence Fishburne</span>
+                    </li>
+                    <li class="actor">
+
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BMTYxMjgwNzEwOF5BMl5BanBnXkFtZTcwNTQ0NzI5Ng@@._V1_FMjpg_UY2048_.jpg">
+                        <a href="https://www.imdb.com/name/nm0005251/?ref_=tt_cst_i_3" target="_blank">
+                            Carrie-Anne Moss </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="right-section">
+                <form>
+                    <div>
+                        <label for="reviewer">By:</label>
+                        <input type="text" id="reviewer" name="reviewer" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="rating">Rate this movie:</label>
+                        <input type="number" id="rating" name="rating" min="1" max="5" required>
+                    </div>
+                    <br>
+                    <div>
+                        <textarea id="review" name="review" rows="4" cols="50" placeholder="Write your review here..."
+                            required></textarea><br>
+                        <button id="submit-form" type="submit">Submit</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

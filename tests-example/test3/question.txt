@@ -1,0 +1,21 @@
+Example 3 – Movie Fan Page
+What You Need to Do?
+1.Create the HTML structure for a
+Movie Fan Page
+.
+2.Add a movie poster.
+3.Display the movie title and a short summary.
+4.Add a list of the main actors.
+5.Add 3 links related to the movie.
+6.Create a Review Form with:
+* Name
+* Rating
+* Review
+* Submit button
+6. Use CSS to style the page:
+* Change fonts and colors
+* Add borders and rounded corners
+* Set width
+* Use margin and padding
+*  Center the page
+* Add a:hover effect
