@@ -48,6 +48,7 @@ ul {
 .section-title {
     font-size: 18px;
     margin: 12px 0 8px;
+    text-decoration: underline;
 }
 
 
@@ -103,3 +104,4 @@ form > div {
 .description:hover {
     font-weight: bold;
 }
+
